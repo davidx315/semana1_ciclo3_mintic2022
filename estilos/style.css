@@ -1,0 +1,28 @@
+.tituloPrincipal{
+    color: cyan;
+    text-align: center;
+}
+
+.parrafo-princial__link--eltiempo{
+    font-style: italic;
+}
+
+.cita{
+    font-style: italic;
+}
+
+.tituloCalzado{
+    color: rgb(38, 0, 255);
+}
+
+h2{
+    color: brown;
+}
+
+table, th, td {
+    border: 1px solid black;
+    width: 50%;
+    height: 70px;
+    text-align: center;
+  }
+
