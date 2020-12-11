@@ -3,103 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   <!-- Nos ayuda a que la pagina tenga responsive en los textos -->
-    <title>Tienda de Zapatos</title>
-    <link rel="icon" href="images/monitor.png" type="image/png" />
+    <title>Tienda de Guitarras</title>
+    <link rel="icon" href="images/Logo.png" type="image/png" />
     <script src="/javascripts/application.js"></script>
     <script src="/javascripts/myScript1.js"></script>
     <script src="https://www.w3schools.com/js/myScript1.js"></script>
     <link rel="stylesheet" type="text/css" href="estilos/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
     <style>
     </style>
 </head>
 <body>
 
     <header>
-        <h1 class="tituloPrincipal">Mi Tienda de <span>Zapatos</span></h1>
 
     </header>
 
     <main> <!-- Cuerpo de la pagina -->
-
-
-        <p>El porque de las zapatillas</p>
-        <blockquote cite="" class="cita">
-            quae dignissimos, omnis repellendus quisquam quos commodi esse at delectus
-        </blockquote>
-
-
-        <p class="parrafo-princial">Lorem <a href="https://www.eltiempo.com" target="_blank" class="parrafo-princial__link--eltiempo">ipsum</a> dolor sit amet consectetur adipisicing elit. <br> Eaque pariatur hic dolorem eligendi 
-        illo cupiditate aperiam quasi sunt minima doloribus quae dignissimos, omnis repellendus quisquam quos commodi esse at delectus.</p>
-
-        <h2 class="tituloCalzado">Sección de Calzado</h2>
-
-        <p>En esta sección encontrarás diversidad de <br> calzado para todas las edades,
-        géneros, gustos, tipo, deportes, etc.</p>
-
-        <br>
-
-        <img src="images/monitor.png" alt="Mi foto" width="360" height="315">
-
-        <br>
-        
-        <!-- Listas ordenadas y no ordenadas -->
-        <h2>Menu principal</h2>
-        <ul>
-            <li>Video</li>
-            <li> <a href="#Contacto">Contacto</a> </li>
-            <li> <a href="#Fundador">Fundador</a> </li>
-            <li> <a href="#Formulario">Formulario</a></li>
-        </ul>
-
-        <ol>
-            <li>Video</li>
-            <li>Contacto</li>
-            <li>Fundador</li>
-        </ol>
-
-        
-        
-
-        <br>
-        <!-- Embeber videos -->
-        <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/42ABdWRcUDo" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-        gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        <h2 id="Contacto">Contacto</h2><!-- id me va a a identificar este h2 -->
-        <table>
-            <caption></caption>
-            <tr>
-                <th>Areas de la tienda</th>
-                <th>Responsable</th>
-                <th>Telefono</th>
-            </tr>
-            <tr>
-                <td>Clazado hombre</td>
-                <td><a href="#Fundador"></a> Jualian Ochoa</td>
-                <td>300 000 000</td>
-            </tr>
-            <tr>
-                <td>Clazado Mujer</td>
-                <td>Fernanada Ochoa</td>
-                <td>321 000 213</td>
-            </tr>
-        </table>
-
-            <h2 id="Fundador"> Fundador</h2>
-            <img src="images/monitor.png" alt="Mi foto" width="360" height="315">
-
-
-
-        <h3 id="Formulario">Formulario</h3>
-
-        <form action="">
-            <label for="nombreCompleto">Nombre Completo</label>
-            <input type="text" id="nombreC" name="nombreC"
-            placeholder="Nombres y Apellidos" required><br><br>
-        </form>
-
+        <div id="Encabezado" class="container">
+            <div class="header">
+                <div class="container-menu">
+                    <div class="container-logo">
+                        <h1 class="site-title" ><img src="images/Logo.png" alt="" width="40px" height="40px" style="position: static;"><strong> Guitarras DavidFender</strong></h1>
+                    </div>
+                    <nav class="nav-list">
+                        <ul class="main-menu">
+                            <li class="main-menu__item">
+                                <a href="#Encabezado" class="main-menu__link">Inicio <i class="glyphicon glyphicon-arrow-left"></i></a>
+                            </li>
+                            <li class="main-menu__item">
+                                <a href="#tiposGuitarras" class="main-menu__link">Tipos de Guitarras <i class="glyphicon glyphicon-arrow-left"></i></a>
+                            </li>
+                            <li class="main-menu__item">
+                                <a href="#" class="main-menu__link">Historias <i class="glyphicon glyphicon-arrow-left"></i></a>
+                            </li>
+                            <li class="main-menu__item">
+                                <a href="#" class="main-menu__link">Integrantes Equipo <i class="glyphicon glyphicon-arrow-left"></i></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <br>
+                <div class="container-imagen">
+                    <img src="images/guitarrasacusticas.jpg" alt="" width="100%" height="300px">
+                </div>
+    
+            </div>
+            <br>
+            <div class="section-1">
+                <h3 class="section-text" id="tiposGuitarras">TIPO DE GUITARRAS</h3>
+                <br>
+                <div class="borde">
+                </div>
+                <br>
+                <div class="col-3">
+                    <img src="images/GuitarrasElectroAcustica.jpg" alt="" width="100%">
+                    <div class="service-content">
+    
+                        <h2 class="tiposGuitarraTitulos">
+                            Guitarras ElectroAcusticas
+                        </h2>
+                        <p class="service-text">
+                            Estas son las mejores como perfectas guitarras Electroacusticas y al mejor precio del mercado, ya que usamos los mejores 
+                            materiales y elementos a la hora de la creacion de nuestras guitarras. Nuestros productos son reconocidos internacionalemente y utilizados
+                            por muchos famosos musicos y productores.
+                        </p>
+                        <button class="botonCompra">Comprar</button>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img src="images/GuitarrasAcustica.jpg" alt="" width="100%">
+                    <div class="service-content">
+    
+                        <h2 class="tiposGuitarraTitulos">
+                            Guitarras Acusticas
+                        </h2>
+                        <p class="service-text">
+                            En nuestras tiendas vaz a encontrar las mejores guitarras Acusticas y al mejor precio del mercado, ya que usamos los mejores 
+                            materiales y elementos a la hora de la creacion de nuestras guitarras. Nuestros productos son reconocidos internacionalemente y utilizados
+                            por muchos famosos musicos y productores.
+                        </p>
+                        <button class="botonCompra">Comprar</button>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img src="images/GuitarraElectrica.png" alt="" width="100%" height="504px">
+                    <div class="service-content">
+    
+                        <h2 class="tiposGuitarraTitulos">
+                            Guitarras Electricas
+                        </h2>
+                        <p class="service-text">
+                            Se toda una estrella del Rock conj nuestras guitarras Electricas y al mejor precio del mercado, ya que usamos los mejores 
+                            materiales y elementos a la hora de la creacion de nuestras guitarras. Nuestros productos son reconocidos internacionalemente y utilizados
+                            por muchos famosos musicos y productores.
+                        </p>
+                        <button class="botonCompra">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
 
     </main>
 
